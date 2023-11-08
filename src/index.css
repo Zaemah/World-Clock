@@ -1,6 +1,5 @@
 body{
     background-image:url("https://images.unsplash.com/photo-1492138623748-a1b1f758a762?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d2V0JTIwd2luZG93fGVufDB8fDB8fHww");
-  background-size: cover;
     font-family: sans-serif;
 }
 .container{
@@ -9,6 +8,7 @@ body{
      display:block;
      margin:0 auto;
      border-radius: 10px;
+    padding: 30px;
      
 }
 select{
