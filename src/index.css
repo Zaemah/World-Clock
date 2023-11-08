@@ -5,8 +5,7 @@ body{
 }
 .container{
     background-image: url("https://4kwallpapers.com/images/wallpapers/blue-background-768x1024-10208.jpg");
-     width: 600px;
-     height: 640px;
+     max-width: 600px;
      display:block;
      margin:0 auto;
      border-radius: 10px;
