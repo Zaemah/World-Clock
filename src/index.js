@@ -58,6 +58,7 @@ function updateTime(){
           "A"
         )}</small></div>
         </div>
+        <a href="/">Back to homepage</a>
         `;
       }
 
