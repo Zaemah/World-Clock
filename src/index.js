@@ -1,11 +1,3 @@
-
-
-
-
-
-
-
-
 function updateTime(){
     let harareElement= document.querySelector("#harare");
     if (harareElement){
