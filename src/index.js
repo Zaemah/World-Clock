@@ -1,3 +1,11 @@
+
+
+
+
+
+
+
+
 function updateTime(){
     let harareElement= document.querySelector("#harare");
     if (harareElement){
@@ -19,14 +27,14 @@ function updateTime(){
     dubaiTimeElement.innerHTML=dubaiTime.format("h.mm.ss[<small>]A[</small>]");
     }
     
-    let johannesburgElement= document.querySelector("#johannesburg");
-    if (johannesburgElement){
-    let johannesburgDateElement= johannesburgElement.querySelector(".date");
-    let johannesburgTimeElement= johannesburgElement.querySelector(".time");
-    let johannesburgTime=moment().tz("Africa/Johannesburg");
+    let dublinElement= document.querySelector("#dublin");
+    if (dublinElement){
+    let dublinDateElement= dublinElement.querySelector(".date");
+    let dublinTimeElement= dublinElement.querySelector(".time");
+    let dublinTime=moment().tz("Europe/Dublin");
     
-    johannesburgDateElement.innerHTML=johannesburgTime.format("MMMM Do, YYYY");
-    johannesburgTimeElement.innerHTML=johannesburgTime.format("h.mm.ss[<small>]A[</small>]");
+    dublinDateElement.innerHTML=dublinTime.format("MMMM Do, YYYY");
+    dublinTimeElement.innerHTML=dublinTime.format("h.mm.ss[<small>]A[</small>]");
     }
     
     let canberraElement= document.querySelector("#canberra");
